@@ -16,6 +16,8 @@ const FAQs = () => {
     },
   ];
 
+  // faq page
+
   return (
     <div className="bg-darkBlue text-white min-h-screen ">
       <div className="max-w-5xl mx-auto px-4">
