@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="z-10 max-w-3xl text-left">
+      <div className="z-10 m-10 mt-52 max-w-3xl text-left">
         <h1 className="text-4xl md:text-6xl font-bold">
           Trusted Multi-Chain <span className="text-yellow">DEX</span> Platform
         </h1>
