@@ -19,7 +19,7 @@ const FAQs = () => {
   // faq page
 
   return (
-    <div className="bg-darkBlue text-white min-h-screen ">
+    <div className="bg-darkBlue text-white min-h-screen pb-20 ">
       <div className="max-w-5xl mx-auto px-4">
         <div className="space-y-6 bg-faq ">
         <h1 className=" text-yellow text-3xl  font-bold  flex items-center justify-center"> <span className="mt-3">FAQs</span></h1>
@@ -29,7 +29,7 @@ const FAQs = () => {
             <h2 className="text-xl font-semibold">{item.question}</h2>
             <div className="flex items-center justify-between mt-4">
               <p className="text-gray-400">{item.answer}</p>
-              <img className="ml-4 w-10 h-10" src={item.icon} alt="" />
+              <img className="ml-4 w-10 mb-5 h-10" src={item.icon} alt="" />
             </div>
             <hr className="opacity-20" />
           </div>
