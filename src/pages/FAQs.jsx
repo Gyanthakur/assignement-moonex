@@ -16,7 +16,7 @@ const FAQs = () => {
     },
   ];
 
-  // faq page
+ 
 
   return (
     <div className="bg-darkBlue text-white min-h-screen pb-20 ">
