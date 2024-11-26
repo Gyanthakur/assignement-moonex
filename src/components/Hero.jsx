@@ -29,7 +29,7 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="z-10 max-w-3xl text-left">
         <h1 className="text-4xl md:text-6xl font-bold">
-          Trusted <span className="text-yellow">Multi-Chain</span> DEX Platform
+          Trusted Multi-Chain <span className="text-yellow">DEX</span> Platform
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-300">
           Trade, earn, and own crypto on the all-in-one multi-chain DEX
