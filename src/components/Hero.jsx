@@ -5,6 +5,10 @@ const Hero = () => {
     <section className="relative bg-darkBlue h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
+
+      <div className="absolute top-1 right-20 mr-10">
+          <img src="circles.png" alt="star" className="h-screen lg:w-full lg:h-full ml-5" />
+        </div>
        
         <div className="absolute top-5 left-10 bg-gradient-to-r from-yellow via-yellow-400 to-transparent h-96 w-96 rounded-full blur-3xl opacity-30"></div>
 
@@ -34,11 +38,11 @@ const Hero = () => {
         <p className="mt-4 text-lg md:text-xl text-gray-300">
           Trade, earn, and own crypto on the all-in-one multi-chain DEX
         </p>
-        <div className="mt-6 flex justify-center gap-4">
-          <button className="bg-yellow text-darkBlue px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-yellow-500 transition">
+        <div className="mt-6 flex  gap-4">
+          <button className="bg-yellow text-darkBlue px-6 py-3 rounded-full font-semibold shadow-md hover:bg-yellow-500 transition">
             Connect Wallet
           </button>
-          <button className="bg-transparent border-2 border-yellow text-yellow px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-yellow-500 hover:text-darkBlue transition">
+          <button className="bg-transparent border-2 border-yellow text-yellow px-6 py-3 rounded-full font-semibold shadow-md hover:bg-yellow-500 hover:text-darkBlue transition">
             Trade Crypto
           </button>
         </div>

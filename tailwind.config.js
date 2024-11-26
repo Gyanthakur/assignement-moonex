@@ -8,10 +8,11 @@ module.exports = {
         code: ['Fira Code', 'monospace'],
       },
       colors: {
-        darkBlue: "#111F26", // Update to match your Figma design
+        darkBlue: "#111F26",
         yellow: "#FFD700", 
         featureBg : "#0F1E28" ,
-        footer: "#051422" // Update to match your Figma design
+        footer: "#051422", 
+        faq: "#0b1924" ,
       },
     },
   },

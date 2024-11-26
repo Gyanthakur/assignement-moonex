@@ -17,10 +17,11 @@ const FAQs = () => {
   ];
 
   return (
-    <div className="bg-darkBlue text-white min-h-screen py-20">
+    <div className="bg-darkBlue text-white min-h-screen ">
       <div className="max-w-5xl mx-auto px-4">
-        <h1 className="text-center text-3xl font-bold mb-10">FAQs</h1>
-        <div className="space-y-6 bg-#111b23">
+        <div className="space-y-6 bg-faq ">
+        <h1 className=" text-yellow text-3xl  font-bold  flex items-center justify-center"> <span className="mt-3">FAQs</span></h1>
+        <hr />
           {faqItems.map((item, index) => (
             <div key={index} className="bg-darkGray p-6 rounded-md">
             <h2 className="text-xl font-semibold">{item.question}</h2>
