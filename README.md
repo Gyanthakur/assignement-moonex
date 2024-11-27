@@ -3,8 +3,9 @@
 </div>
 
 <div align="center">
-  <img src="[https://github.com/user-attachments/assets/6d8cd6ae-2da9-45cf-9cee-a6f437eb1a66](https://github.com/user-attachments/assets/bdc41af5-3048-426a-8f30-84a206010f3d)" alt="logo" />
+  <img src="https://github.com/user-attachments/assets/5f39023c-b2a4-4864-ace2-1b3e7d9c0389" alt="image" />
 </div>
+
 
 
 
