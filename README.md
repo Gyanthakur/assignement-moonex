@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6d8cd6ae-2da9-45cf-9cee-a6f437eb1a66" alt="logo" />
+</div>
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,7 +15,7 @@ Currently, two official plugins are available:
 
 # MoonEX
 
-MoonEX is a responsive and user-friendly web application designed to provide an engaging interface for managing financial portfolios and exploring cryptocurrency trends. Built using modern web technologies, MoonEX delivers an exceptional user experience across various devices.
+MoonEX is a responsive and user-friendly web application designed to provide an engaging interface. Built using modern web technologies, MoonEX delivers an exceptional user experience across various devices.
 
 ## Features
 
@@ -31,7 +36,7 @@ MoonEX is a responsive and user-friendly web application designed to provide an 
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-username/moonex.git](https://github.com/Gyanthakur/assignement-moonex.git)
+   git clone https://github.com/Gyanthakur/assignement-moonex.git
    ```
 
 2. Navigate to the project directory:
@@ -52,13 +57,8 @@ MoonEX is a responsive and user-friendly web application designed to provide an 
    npm start
    ```
 
-5. Open your browser and visit `http://localhost:3000`.
+5. Open your browser and visit `http://localhost:5173`.
 
-## Usage
-
-- Explore the navigation menu to access Home, About Us, Roadmap, FAQs, and Contact Us sections.
-- For mobile users, use the hamburger menu to navigate.
-- Connect your wallet via the "Connect Wallet" button (desktop only).
 
 ## Responsive Design
 
@@ -72,6 +72,7 @@ moonex/
 ├── public/         # Static assets like images and icons
 ├── src/
 │   ├── components/ # Reusable React components
+│   ├── pages/      # React pages
 │   ├── styles/     # Tailwind CSS configuration
 │   └── App.js      # Main application logic
 └── package.json    # Project dependencies
@@ -80,10 +81,12 @@ moonex/
 ## Screenshots
 
 ### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
+![image](https://github.com/user-attachments/assets/c744571c-d41e-4255-820e-905cb547141e)
+
 
 ### Desktop View
-![Desktop View](./screenshots/desktop-view.png)
+![image](https://github.com/user-attachments/assets/db1c0d97-b751-4924-b1ca-20a3e4ed0a18)
+
 
 ## Contributing
 
